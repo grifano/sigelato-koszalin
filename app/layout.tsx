@@ -17,6 +17,7 @@ const phosphateInline = localFont({
 });
 
 const montserrat = Montserrat({
+  subsets: ["latin"], // Specify the subset(s) you need
   variable: "--font-body-montserrat-sans",
   weight: ["400", "500", "600", "700", "800"],
 });
