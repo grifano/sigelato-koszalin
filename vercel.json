@@ -1,6 +1,7 @@
 {
     "headers": [
       {
+        "source": "/video/(.*)",
         "headers": [
           {
             "key": "Access-Control-Allow-Origin",
@@ -17,7 +18,7 @@
         ]
       }
     ],
-    "routes": [
+    "rewrites": [
       {
         "source": "/video/sigelato-movie.mp4",
         "destination": "/api/cors"
