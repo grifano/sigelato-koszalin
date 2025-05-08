@@ -5,7 +5,11 @@
         "headers": [
           {
             "key": "Access-Control-Allow-Origin",
-            "value": "https://sigelato-koszalin.webflow.io"
+            "value": "*"
+          },
+          {
+            "key": "Vary",
+            "value": "Origin"
           }
         ]
       }
